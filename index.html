@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>File Reader</title>
+    <link rel="stylesheet" href="./style1.css">
+  </head>
+  <body>
+    <div id="head" class="iGr">
+      <div id="search_box_container">
+	<input type="text" id="search_box">
+      </div>
+      <div id="av_controls">
+	<audio></audio>
+	<div id="buttons"></div>
+      </div>
+      <div id="seeker" class="iYl"></div>
+    </div>
+    
+    <div id="display">
+      <div id="category">
+	<div class="category">
+	  Music
+	</div>
+      	<input type="file" id="upfile" webkitdirectory directory multiple mozdirectory>
+	<div style="position: fixed; bottom: 0; width: 180px; margin: 5px; padding: 5px;">
+	  Title: <b id="title"></b><br />
+	  Album: <b id="album"></b><br />
+	  Artist: <b id="artist"></b><br /><br /><br />
+	  <img id="album_art"><br />
+	</div>
+      </div>
+      <div id="plist"></div>
+    </div>
+    <script src="js-id3v2.js"></script>
+    <script src="script1.js"></script>
+  </body>
+</html>
