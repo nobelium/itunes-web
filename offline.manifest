@@ -1,0 +1,9 @@
+CACHE MANIFEST
+#This is a comment
+
+CACHE:
+#index.html
+#./js-id3v2.js
+#./style1.css
+#./yahoo-dom-event.js
+#./script1.js

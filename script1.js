@@ -10,7 +10,7 @@ if(++i < files.length) setTimeout(arguments.callee, 5000);
 
 function render_song(tags){
 	 console.log(tags);
-	 $('album_art').src = tags.pictures.length?tags.pictures[0].dataURL:'sad.jpg';
+	 $('album_art').src = tags.pictures.length?tags.pictures[0].dataURL:'no-art.png';
 	 $('title').innerHTML = tags.Title;
 	 $('album').innerHTML = tags.Album
 	 $('artist').innerHTML = tags['Artist']

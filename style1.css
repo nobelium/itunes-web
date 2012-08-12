@@ -55,6 +55,10 @@ body {
     z-index: 100;
 }
 
+#buttons{
+    padding-left: 25px;
+}
+
 #buttons div {
     display: inline-block;
 }
