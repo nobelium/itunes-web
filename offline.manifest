@@ -2,8 +2,30 @@ CACHE MANIFEST
 #This is a comment
 
 CACHE:
-#index.html
-#./js-id3v2.js
-#./style1.css
-#./yahoo-dom-event.js
-#./script1.js
+index.html
+./js-id3v2.js
+./style1.css
+./yahoo-dom-event.js
+./script1.js
+./images/forward_click.png  
+./images/forward.png  
+./images/music_back.png  
+./images/music.png        
+./images/pause_hover.png  
+./images/playbar.png     
+./images/play_hover.png  
+./images/revind.png        
+./images/rewind_hover.png  
+./images/search.png         
+./images/shuffle.png
+./images/forward_hover.png  
+./images/header.png   
+./images/music-norm.png  
+./images/pause_click.png  
+./images/pause.png        
+./images/play_click.png  
+./images/play.png        
+./images/rewind_click.png  
+./images/rewind.png        
+./images/shuffle-click.png  
+./images/titlebar.png
